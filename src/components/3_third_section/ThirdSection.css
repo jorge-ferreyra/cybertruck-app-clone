@@ -1,0 +1,81 @@
+.tesla-third-section {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.cybertruck-camp-container {
+  width: 100%;
+}
+
+.tesla-cybertruck-camp {
+  position: relative;
+  width: 100%;
+  opacity: .8;
+  display: block;
+}
+
+.third-card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 82px;
+  gap: 32px;
+}
+
+.cybertruck-charge-container {
+  width: 35%;
+  height: auto;
+}
+
+.tesla-cybertruck-charge {
+  width: 100%;
+  top: 260px;
+  left: 120px;
+  border-radius: 8px;
+}
+
+.third-box {
+  width: 50%;
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 12px;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.third-box span {
+  font-size: 22px;
+  color: red;
+}
+
+.fourth-box {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  padding-bottom: 82px;
+  
+}
+
+.formula-box {
+  width: 30%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  background-color: rgba(255, 255, 255, .7);
+  border-radius: 12px;
+  transition: transform 1s ease;
+  padding: 18px 18px;
+}
+
+.fourth-box:hover {
+  transform: rgba(255, 255, 255, 1);
+} 

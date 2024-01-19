@@ -1,0 +1,143 @@
+.text-red-p {
+  color: rgb(255, 0, 0);
+}
+
+h1, p {
+  z-index: 5;
+}
+
+.tesla-second-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.cybertruck-outside-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: -10;
+}
+
+.tesla-cybertruck-outside {
+  width: 100%;
+  height: auto;
+  opacity: .5;
+  display: block;
+  margin: 0;
+}
+
+.first-card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+  padding-top: 82px;
+}
+
+.tesla-first-video {
+  width: 80vh;
+  height: 40vh;
+  border: 1px solid rgba(255, 0, 0, 0.2);
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+.tesla-second-box {
+  width: 50%;
+  background-color: rgba(0, 0, 0, .3);
+  border-radius: 12px;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.grid-models {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  padding-bottom: 82px;
+}
+
+.second-card {
+  width: 80%;
+  height: 468px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  gap: 32px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.cybertruck-models {
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(255, 0, 0, 0.2);
+}
+
+.model-conteiner {
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.img-models {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  z-index: -1;
+  transition: transform 1s ease-out;
+}
+
+.main-details {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.main-details h1 {
+  width: 100%;
+  font-size: 24px;
+  background-color: rgba(255, 0, 0, 0.5);
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+}
+
+.main-details h2 {
+  width: 30%;
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+  border-radius: 6px;
+}
+
+.details {
+  list-style-type: none;
+  text-align: left;
+  padding-left: 24px;
+}
+
+@media (hover:hover) {
+  .cybertruck-models:hover .img-models {
+    transform: scale(1.2);
+  }
+}
+

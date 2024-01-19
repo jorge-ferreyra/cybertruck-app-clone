@@ -1,0 +1,137 @@
+.tesla-first-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.cybertruck-main-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.tesla-cybertruck-main {
+  width: 100%;
+  height: auto;
+  opacity: .5;
+  display: block;
+  margin: 0;
+}
+
+.tesla-socialmedia-box {
+  position: absolute;
+  top: 100px;
+  right: 20px;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  margin-right: 180px;
+  z-index: 20;
+  transition: background-color 0.5s ease;
+}
+
+.tesla-socialmedia-box:nth-child(2) {
+  position: absolute;
+  top: 100px;
+  right: 70px;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  margin-right: 180px;
+  z-index: 20;
+  transition: background-color 0.5s ease;
+}
+
+.tesla-socialmedia-box:nth-child(3) {
+  position: absolute;
+  top: 100px;
+  right: 120px;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  margin-right: 180px;
+  z-index: 20;
+  transition: background-color 0.5s ease;
+}
+
+.tesla-icon {
+  position: absolute;
+  opacity: .8;
+  transition: opacity 0.5s ease;
+}
+
+.tesla-icon-black {
+  height: 40px;
+}
+
+.tesla-icon-white {
+  height: 40px;
+  opacity: 0;
+}
+
+.instagram-icon {
+  bottom: -4px;
+  right: -4px;
+  position: absolute;
+  opacity: .8;
+  transition: opacity 0.5s ease;
+}
+
+.instagram-icon-black {
+  height: 48px;
+}
+
+.instagram-icon-white {
+  height: 48px;
+  opacity: 0;
+}
+
+.x-icon {
+  position: absolute;
+  opacity: .8;
+  transition: opacity 0.5s ease;
+}
+
+.x-icon-black {
+  height: 40px;
+}
+
+.x-icon-white {
+  height: 40px;
+  opacity: 0;
+}
+
+.tesla-first-box {
+  position: absolute;
+  width: 80%;
+}
+
+.tesla-first-box h1 {
+  text-align: center;
+  font-size: 90px;
+  font-family: system-ui;
+  opacity: .8;
+}
+
+.tesla-first-box p {
+  text-align: center;
+  font-size: 30px;
+  font-family: system-ui;
+  opacity: .8;
+  padding-bottom: 64px;
+}
+
+.text-red-title {
+  color: rgb(255, 0, 0);
+  font-size: 40px;
+}
+
+
+
+

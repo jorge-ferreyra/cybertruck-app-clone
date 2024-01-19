@@ -1,0 +1,64 @@
+.tesla-top-menu {
+  height: 90px;
+  width: 100%;
+  background-color: rgba(29, 29, 29, 0.8);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.tesla-logo {
+  width: 85px;
+  margin-left: 16px;
+  position: absolute;
+  opacity: .8;
+  animation: cambioColor 7s infinite linear;
+}
+
+.tesla-logo-black {
+  opacity: 1;
+  animation: descensoOpacidad 7s infinite linear;
+}
+
+.tesla-logo-red {
+  position: absolute;
+  opacity: 0;
+  animation: aumentoOpacidad 7s infinite linear;
+}
+
+@keyframes aumentoOpacidad {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: .40;
+  }
+  50% {
+    opacity: .8;
+  }
+  75% { 
+    opacity: .40;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes descensoOpacidad {
+  0% {
+    opacity: .8;
+  }
+  25% {
+    opacity: .40;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: .40;
+  }
+  100% {
+    opacity: .8;
+  }
+}
