@@ -2,10 +2,6 @@
 
 ### This is a website created with React, where I design a clone of Tesla page
 
-<p>
-In this project I practiced my skills in <strong>React & CSS</strong> design
-</p>
-
 <div style="display: flex;" >
     <p>In this project I practiced my skills in <strong>React & CSS</strong> design</p>
     <div style="display: flex; gap: 12px" >
@@ -16,4 +12,7 @@ In this project I practiced my skills in <strong>React & CSS</strong> design
 
 <p>Soon this page will be part of my <strong>portfolio!</strong></p>
 
-[Linkedin](https://www.linkedin.com/in/jorge-ferreyra-){:target="_blank"}
+<div style="display: flex;">
+    <a href="https://www.linkedin.com/in/jorge-ferreyra-" target="_blank">My Linkedin :D</a>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png" alt='Linkedin logo' width='20' height='20'/>
+</div>
