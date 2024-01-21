@@ -2,7 +2,7 @@
 
 ### This is a website created with React, where I design a clone of Tesla page
 
-<div style="display: flex;" >
+<div style="display: flex; align-items: center;" >
     <p style="margin: 0;">In this project I practiced my skills in <strong>React & CSS</strong> design</p>
     <div style="display: flex; gap: 12px" >
         <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png' alt='React logo' width='20' height='20' />
