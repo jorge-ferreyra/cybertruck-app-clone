@@ -139,21 +139,26 @@ h1, p {
   position: absolute;
   bottom: 0;
   right: 0;
-  color: red;
+  color: white;
   margin-bottom: 20px;
   margin-right: 20px;
   background-color: rgba(0, 0, 0, 0.6);
   padding: 8px;
   border-radius: 18px;
+  border: 1px solid rgba(255, 0, 0, .5);
+  transition: color 1s linear;
 }
 
-.cybertruck-models .link span {
-  color: white;
-}
 
 @media (hover:hover) {
   .cybertruck-models:hover .img-models {
     transform: scale(1.2);
+  }
+  * {
+    backface-visibility: hidden;
+  }
+  .cybertruck-models .link:hover {
+    color: red;
   }
 }
 

@@ -17,7 +17,7 @@ export function CardModel ({ img, description, title, price ,autonomy, accelerat
         <li>- Velocidad Máxima </li>
         <p>{maxSpeed} KM/H</p>
       </ul>
-      <Link className='link' to='/models'>Ver más detalles de <span>{title}</span></Link>
+      <Link className='link' to='/models'>Ver más detalles de {title}</Link>
     </div>
   )
 }

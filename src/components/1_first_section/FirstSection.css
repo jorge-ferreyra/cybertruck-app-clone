@@ -130,6 +130,7 @@
 .text-red-title {
   color: rgb(255, 0, 0);
   font-size: 40px;
+  backface-visibility: hidden;
 }
 
 
