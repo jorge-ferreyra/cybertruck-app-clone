@@ -7,6 +7,6 @@
 <p>Soon this page will be part of my <strong>Portfolio!</strong></p>
 
 <div style="display: flex; gap: 24px;">
-    <a href="https://www.linkedin.com/in/jorge-ferreyra-" target="_blank">My Linkedin</a>
+    <a href="https://www.linkedin.com/in/jorge-ferreyra-">My Linkedin</a>
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png" alt='Linkedin logo' width='20' height='20'/>
 </div>

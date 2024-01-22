@@ -1,3 +1,5 @@
+import { Link } from '../Link.jsx'
+
 // eslint-disable-next-line react/prop-types
 export function CardModel ({ img, description, title, price ,autonomy, acceleration, maxSpeed }) {
   return(
@@ -15,7 +17,7 @@ export function CardModel ({ img, description, title, price ,autonomy, accelerat
         <li>- Velocidad Máxima </li>
         <p>{maxSpeed} KM/H</p>
       </ul>
-      <a href='/models'>Ver más detalles de modelos {'>'}</a>
+      <Link className='link' to='/models'>Ver más detalles de <span>{title}</span></Link>
     </div>
   )
 }
