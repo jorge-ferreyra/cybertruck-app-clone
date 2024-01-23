@@ -9,10 +9,10 @@ export function Car ({ gif, title, range, acceleration, topSpeed, towing, weight
          </div>
           <div className="details">
            <h3>PERFORMANCE</h3>
-            <p>Range (est.): {range}</p>
-            <p>Acceleration: {acceleration}</p>
-            <p>Top Speed: {topSpeed}</p>
-            <p>Towing: {towing}</p>
+            <p><span>Range (est.): </span>{range}</p>
+            <p><span>Acceleration: </span>{acceleration}</p>
+            <p><span>Top Speed: </span>{topSpeed}</p>
+            <p><span>Towing: </span>{towing}</p>
           </div>
         </div>
         <div className="soon">
@@ -32,22 +32,22 @@ export function Car ({ gif, title, range, acceleration, topSpeed, towing, weight
           </div>
           <div className="details">
             <h3>PERFORMANCE</h3>
-            <p>Range (est.): {range}</p>
-            <p>Acceleration: {acceleration}</p>
-            <p>Top Speed: {topSpeed}</p>
-            <p>Towing: {towing}</p>
+            <p><span>Range (est.): </span>{range}</p>
+            <p><span>Acceleration: </span>{acceleration}</p>
+            <p><span>Top Speed: </span>{topSpeed}</p>
+            <p><span>Towing: </span>{towing}</p>
           </div>
           
         </div>
         <div className="dimensions">
           <h3>DIMENSIONS</h3>
-          <p>Weight: {weight}</p>
-          <p>Cargo: 120.9 CU FT</p>
-          <p>Wheels: {`20"`}</p>
-          <p>Seating: 5 ADULTS</p>
+          <p><span>Weight: </span>{weight}</p>
+          <p><span>Cargo: </span>120.9 CU FT</p>
+          <p><span>Wheels: </span>{`20"`}</p>
+          <p><span>Seating: </span>5 ADULTS</p>
           <h3>CHARGING</h3>
-          <p>Charging Speed: UP TO 128 MILES ADDED IN 15 MINUTES</p>
-          <p>Supercharging Max/Payment Type: 250KW MAX; PAY PER USE</p>
+          <p><span>Charging Speed: </span>UP TO 128 MILES ADDED IN 15 MINUTES</p>
+          <p><span>Supercharging Max/Payment Type: </span>250KW MAX; PAY PER USE</p>
         </div>
         <div className="gif">
           <img src={gif} alt="" />
