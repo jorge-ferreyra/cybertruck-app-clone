@@ -44,14 +44,27 @@
   grid-area: details;
   display: flex;
   flex-direction: column;
-  align-items: center;
   background-color: rgba(24, 24, 24, .6);
   border-radius: 12px;
-  padding: 0;
+  text-align: left;
+}
+
+.performance .title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 
-.performance h1 {
+.performance .details {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  padding-left: 48px;
+}
+
+.title h1 {
   width: 80%;
   font-size: 36px;
   padding-bottom: 16px;
@@ -60,7 +73,9 @@
 }
 
 .performance h3 {
+  width: 50%;
   font-size: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, .3);
 }
 
 .dimensions {

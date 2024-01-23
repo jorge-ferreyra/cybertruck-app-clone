@@ -3,12 +3,17 @@ export function Car ({ gif, title }) {
   return(
     <article className='model'>
       <div className="performance">
-        <h1>{title}</h1>
-        <h3>PERFORMANCE</h3>
-        <p>Range (est.): </p>
-        <p>Acceleration: </p>
-        <p>Top Speed: </p>
-        <p>Towing: </p>
+        <div className="title">
+          <h1>{title}</h1>
+        </div>
+        <div className="details">
+          <h3>PERFORMANCE</h3>
+          <p>Range (est.): </p>
+          <p>Acceleration: </p>
+          <p>Top Speed: </p>
+          <p>Towing: </p>
+        </div>
+        
       </div>
       <div className="dimensions">
         <h3>DIMENSIONS</h3>
