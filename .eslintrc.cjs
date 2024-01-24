@@ -16,15 +16,14 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
-    'indent': ['error', 2],  // Establece el sangrado a 2 espacios
-    'react/jsx-indent': ['error', 2],  // Sangrado para JSX
-    'react/jsx-indent-props': ['error', 2],  // Sangrado para propiedades de JSX
+    'indent': ['error', 2],
+    'react/jsx-indent': ['error', 2],
+    'react/jsx-indent-props': ['error', 2],
   },
   overrides: [
     {
       files: ['*.js', '*.jsx'],
       rules: {
-        // Puedes agregar reglas específicas para archivos .js y .jsx aquí si es necesario
       },
     },
   ],
