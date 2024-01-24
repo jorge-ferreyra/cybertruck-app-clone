@@ -14,7 +14,7 @@ export function FifthSection () {
         <h2 className='titleTitle'>Titulo</h2>
         <input className='inputTitle' type="text" placeholder='Ingrese el titulo...' maxLength='100'/>
         <h2 className='titleDescription'>Descripción</h2>
-        <input className='inputDescription' type="text" placeholder='Ingrese aquí la descripción...' maxLength='255'/>
+        <textarea className='inputDescription' name="description" id="description" cols="30" rows="10" placeholder='Ingrese aquí la descripción...'></textarea>
         <input className='inputSubmit' type="submit" />
       </form>
     </section>
