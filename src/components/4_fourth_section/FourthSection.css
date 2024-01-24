@@ -16,6 +16,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   background-color: rgb(18, 18, 18);
   border-radius: 8px;
   border: 1px solid rgba(255, 0, 0, 0.2);
@@ -25,11 +26,12 @@
 .test-after h1,
 .test-before h1 {
   margin-bottom: 50px;
+  margin-top: 0;
 }
 
 .test-after p,
 .test-before p {
-  margin-bottom: 50px;
+
   font-size: 18px;
 }
 
@@ -37,7 +39,8 @@
 .tesla-third-video {
   width: 70%;
   height: 60%;
+  margin-top: 50px;
   border: 1px solid rgba(255, 0, 0, 0.1);
-  border-radius: 12px;
+  border-radius: 8px;
   flex-shrink: 0;
 }
