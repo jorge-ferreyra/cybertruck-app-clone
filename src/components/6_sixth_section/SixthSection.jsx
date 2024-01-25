@@ -1,0 +1,24 @@
+import './SixthSection.css'
+
+export function SixthSection () {
+  return(
+    <section className='tesla-sixth-section'>
+      <article>
+
+      </article>
+      <form className='tesla-form' action="">
+        <h2 className='titleName'>Nombre</h2>
+        <input className='inputName' type="text" placeholder='Ingrese un nombre...'/>
+        <h2 className='titleSurname'>Apellido</h2>
+        <input className='inputSurname' type="text" placeholder='Ingrese un apellido...'/>
+        <h2 className='titleMail'>Mail</h2>
+        <input className='inputMail' type="text" placeholder='Ingrese un mail...'/>
+        <h2 className='titleTitle'>Título</h2>
+        <input className='inputTitle' type="text" placeholder='Ingrese el titulo...' maxLength='100'/>
+        <h2 className='titleDescription'>Descripción</h2>
+        <textarea className='inputDescription' name="description" id="description" cols="30" rows="10" placeholder='Ingrese aquí la descripción...'></textarea>
+        <input className='inputSubmit' type="submit" />
+      </form>
+    </section>
+  )
+}

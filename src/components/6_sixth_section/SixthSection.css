@@ -1,0 +1,105 @@
+.tesla-sixth-section {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(40, 40, 40);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+
+.tesla-form {
+  grid-column: 2;
+  width: 80%;
+  height: 800px;
+  padding: 80px;
+  background-color: black;
+  border-radius: 8px;
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: 
+    "titleName titleSurname titleMail"
+    "inputName inputSurname inputMail"
+    "titleTitle titleTitle titleTitle"
+    "inputTitle inputTitle inputTitle"
+    "titleDescription titleDescription titleDescription"
+    "inputDescription inputDescription inputDescription";
+  border: 1px solid rgba(255, 0, 0, .3);
+  box-shadow: inset 0px 0px 50px rgba(255, 0, 0, .3);
+  transition: box-shadow 2s linear;
+}
+
+.tesla-form input {
+  height: 40px;
+}
+
+.tesla-form h2 {
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.tesla-form .titleName {
+  grid-area: titleName;
+}
+
+.tesla-form .titleSurname {
+  grid-area: titleSurname;
+}
+
+.tesla-form .titleMail {
+  grid-area: titleMail;
+}
+
+.tesla-form .titleTitle {
+  grid-area: titleTitle;
+}
+
+.tesla-form .titleDescription {
+  grid-area: titleDescription;
+}
+
+.tesla-form .inputName {
+  grid-area: inputName;
+  width: 90%;
+}
+
+.tesla-form .inputSurname {
+  grid-area: inputSurname;
+  width: 90%;
+}
+
+.tesla-form .inputMail {
+  grid-area: inputMail;
+  width: 90%;
+}
+
+.tesla-form .inputTitle {
+  grid-area: inputTitle;
+  width: 80%;
+}
+
+.tesla-form .inputDescription {
+  grid-area: inputDescription;
+  width: 100%;
+  height: 360px;
+}
+
+.tesla-form .inputSubmit {
+  width: 150px;  
+  cursor: pointer;
+  margin-top: 44px;
+  background-color: rgb(76, 76, 76);
+  border: none;
+  border-radius: 4px;
+}
+
+@media (hover:hover) {
+  .tesla-form .inputSubmit:hover {
+    background-color: rgb(110, 110, 110);
+  }
+  .tesla-form:hover {
+    box-shadow: inset 0px 0px 150px rgba(255, 0, 0, .2);
+  }
+}
