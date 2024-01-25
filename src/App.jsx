@@ -5,7 +5,7 @@ import { SecondSection } from './components/2_second_section/SecondSection.jsx'
 import { ThirdSection } from './components/3_third_section/ThirdSection.jsx'
 import { FourthSection } from './components/4_fourth_section/FourthSection.jsx'
 import { FifthSection } from './components/5_fifth_section/FifthSection.jsx'
-import { SixthSection } from './components/6_sixth_section/FifthSection.jsx'
+import { SixthSection } from './components/6_sixth_section/sixthSection.jsx'
 import { Models } from './components/Model/Models.jsx'
 
 import { Router } from './components/Router.jsx'

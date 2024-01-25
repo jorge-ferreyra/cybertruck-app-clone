@@ -15,11 +15,9 @@ export function SecondSection () {
         <iframe className='tesla-first-video' src='https://www.youtube.com/embed/DsonSEllPmU' allowFullScreen></iframe>
         <div className='tesla-second-box'>
           <p>En noviembre de 2019, <span className='text-red-p'>Tesla</span> presento esta camioneta pickup eléctrica con un diseño unico y futurista. 
-          Cuenta con una carroceria del tipo exoesqueleto compuesta por paneles de acero inoxidable de hasta 1.8 mm que soportan disparos subsónicos de balas de 9 mm.
-          Con tan solo 6 días de su presentación ya tenía 250.000 reservas. En octubre de 2023 cuenta con más de un millón de ellas y se aproxima una capacidad de fabricar 125.000 en 2024 y 250.000 en 2025.
-          <br />
-          <br />
-          Las entregas empezaron en diciembre de 2023 y se ofrecieron 3 versiones: </p>
+            Cuenta con una carroceria del tipo exoesqueleto compuesta por paneles de acero inoxidable de hasta 1.8 mm que soportan disparos subsónicos de balas de 9 mm.
+            Con tan solo 6 días de su presentación ya tenía 250.000 reservas. En octubre de 2023 cuenta con más de un millón de ellas y se aproxima una capacidad de fabricar 125.000 en 2024 y 250.000 en 2025.<br /><br />
+            Las entregas empezaron en diciembre de 2023 y se ofrecieron 3 versiones: </p>
         </div>
       </article>
       <div className='grid-models'>
