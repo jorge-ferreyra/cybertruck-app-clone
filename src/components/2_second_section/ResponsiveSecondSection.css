@@ -1,0 +1,102 @@
+@media (max-width: 1874px) {
+  .cybertruck-models {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 1758px) {
+  .details p {
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+  .cybertruck-models .link {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 1650px) {
+  .main-details h1 {
+    font-size: 20px;
+  }
+  .details p {
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+}
+
+@media (max-width: 1550px) {
+  .details {
+    margin-bottom: 10px;
+  }
+  .cybertruck-models .link {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .cybertruck-models {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 1480px) {
+  .tesla-second-box {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .details {
+    margin-top: 6px;
+  }
+}
+
+@media (max-width: 1375px) {
+  .cybertruck-models {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 1350px) {
+  .first-card {
+    height: 40%;
+  }
+  .tesla-second-box {
+    font-size: 14px;
+  }
+  .grid-models {
+    height: 42%;
+  }
+  .main-details h1 {
+    margin-top: 10px;
+  }
+  .main-details h2 {
+    margin-top: 8px;
+  }
+  .cybertruck-models .link {
+    height: 14%;
+  }
+}
+
+@media (max-width: 1260px) {
+  .tesla-second-box {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1230px) {
+  .details {
+    margin-bottom: 5px;
+    margin-left: 10px;
+    padding: 2px;
+  }
+  .cybertruck-models .link {
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 1120px) {
+  .tesla-second-box {
+    font-size: 11px;
+  }
+}

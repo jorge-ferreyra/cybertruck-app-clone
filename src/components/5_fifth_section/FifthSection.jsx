@@ -1,4 +1,5 @@
 import './FifthSection.css'
+import './ResponsiveFifthSection.css'
 import cybertruckInside from '../img/cybertruck-inside.jpg'
 import cybertruckInside2 from '../img/cybertruck-inside-2.jpg'
 import cybertruckInside3 from '../img/cybertruck-inside-3.jpg'

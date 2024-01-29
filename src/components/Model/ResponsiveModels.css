@@ -1,0 +1,71 @@
+@media (max-height: 910px) {
+  .performance .title h1 {
+    font-size: 32px;
+  }
+  .performance .car-details h3 {
+    font-size: 18px;
+  }
+  .performance .car-details p {
+    font-size: 14px;
+  }
+  .performance .car-details {
+    margin-top: 16px;
+  }
+  .dimensions h3 {
+    font-size: 18px;
+  }
+  .dimensions p {
+      font-size: 13px;
+  }
+}
+  
+@media (max-height: 790px) {
+  .performance .title h1 {
+    font-size: 29px;
+  }
+  .performance .car-details h3 {
+    font-size: 16px;
+  }
+  .performance .car-details p {
+    font-size: 12px;
+  }
+  .performance .car-details {
+    margin-top: 10px;
+  }
+  .dimensions h3 {
+    margin-top: 16px;
+    font-size: 15px;
+  }
+  .dimensions p {
+    font-size: 12px;
+  }
+}
+  
+@media (max-height: 720px) {
+  .performance .title h1 {
+    font-size: 26px;
+  }
+  .performance .car-details h3 {
+    font-size: 14px;
+  }
+  .performance .car-details p {
+    font-size: 10px;
+  }
+  .performance .car-details {
+    margin-top: 6px;
+  }
+  .performance .title {
+    padding-top: 22px;
+  }
+  .dimensions h3 {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  .dimensions p {
+    font-size: 10px;
+  }
+  .link-box .link {
+    padding: 5px;
+    font-size: 10px;
+  }
+}

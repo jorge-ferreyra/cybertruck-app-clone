@@ -6,10 +6,10 @@ export function Car ({ gif, title, range, acceleration, topSpeed, towing, weight
         <div className="performance">
           <div className="title">
             <h1>{title}</h1>
-         </div>
-          <div className="details">
-           <h3>PERFORMANCE</h3>
-            <p><span>Range (est.): </span>{range}</p>
+          </div>
+          <div className="car-details">
+            <h3>PERFORMANCE</h3>
+            <p><span>{`Range (est.): `}</span>{range}</p>
             <p><span>Acceleration: </span>{acceleration}</p>
             <p><span>Top Speed: </span>{topSpeed}</p>
             <p><span>Towing: </span>{towing}</p>
@@ -30,9 +30,9 @@ export function Car ({ gif, title, range, acceleration, topSpeed, towing, weight
           <div className="title">
             <h1>{title}</h1>
           </div>
-          <div className="details">
+          <div className="car-details">
             <h3>PERFORMANCE</h3>
-            <p><span>Range (est.): </span>{range}</p>
+            <p><span>{`Range (est.): `}</span>{range}</p>
             <p><span>Acceleration: </span>{acceleration}</p>
             <p><span>Top Speed: </span>{topSpeed}</p>
             <p><span>Towing: </span>{towing}</p>

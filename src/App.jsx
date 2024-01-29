@@ -1,5 +1,5 @@
 import './App.css'
-import { TopMenu } from './components/TopMenu.jsx'
+import { TopMenu } from './components/top_menu/TopMenu.jsx'
 import { FirstSection } from './components/1_first_section/FirstSection.jsx'
 import { SecondSection } from './components/2_second_section/SecondSection.jsx'
 import { ThirdSection } from './components/3_third_section/ThirdSection.jsx'

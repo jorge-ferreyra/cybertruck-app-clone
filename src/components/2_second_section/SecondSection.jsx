@@ -4,6 +4,7 @@ import allWheelDriveModel from '../img/cybertruck-models-allwheeldrive.jpg'
 import rearWheelDriveModel from '../img/cybertruck-models-rearwheeldrive.jpg'
 import { CardModel } from './card.jsx'
 import './SecondSection.css'
+import './ResponsiveSecondSection.css'
 
 export function SecondSection () {
   return(

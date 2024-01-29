@@ -1,0 +1,39 @@
+@media (max-width: 1533px) {
+  .third-box {
+    font-size: 18px;
+  }
+  .third-box span {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1410px) {
+  .third-box {
+    font-size: 16px;
+  }
+  .third-box span {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1290px) {
+  .third-box {
+    font-size: 14px;
+  }
+  .third-box span {
+    font-size: 16px;
+  }
+  .formula-box {
+    gap: 6px;
+  }
+}
+
+@media (max-width: 1160px) {
+  .third-box {
+    font-size: 12px;
+  }
+  .third-box span {
+    font-size: 14px;
+  }
+  
+}

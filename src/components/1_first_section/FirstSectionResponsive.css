@@ -1,95 +1,65 @@
-@media (max-width: 1366px) {
-    .tesla-socialmedia-box {
-      top: 50px;
-      right: -40px;
-    }
-    .tesla-socialmedia-box:nth-child(2) {
-      top: 50px;
-      right: 10px;
-    }
-    .tesla-socialmedia-box:nth-child(3) {
-      top: 50px;
-      right: 60px;
-    }
+@media (max-width: 1300px) {
+  .tesla-socialmedia-box:nth-child(2) {
+    top: 70px;
+    right: -110px;
   }
+  .tesla-socialmedia-box:nth-child(3) {
+    top: 70px;
+    right: -60px;
+  }
+  .tesla-socialmedia-box:nth-child(4) {
+    top: 70px;
+    right: -10px;
+  }
+  .tesla-first-box h1 {
+    font-size: 80px;
+    margin-bottom: 30px;
+  }
+  .tesla-first-box p {
+    font-size: 26px;
+  }
+  .text-red-subtitle {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .tesla-socialmedia-box:nth-child(2) {
+    width: 30px;
+    height: 30px;
+    top: 20px;
+    right: -120px;
+  }
+  .tesla-socialmedia-box:nth-child(3) {
+    width: 30px;
+    height: 30px;
+    top: 20px;
+    right: -80px;
+  }
+  .tesla-socialmedia-box:nth-child(4) {
+    width: 30px;
+    height: 30px;
+    top: 20px;
+    right: -40px;
+  }
+  .tesla-icon {
+    height: 30px;
+  }
+  .instagram-icon {
+    height: 38px;
+  }
+  .x-icon {
+    height: 30px;
+  }
+  .tesla-first-box h1 {
+    font-size: 60px;
+    margin-bottom: 0;
+  }
+  .tesla-first-box p {
+    font-size: 20px;
+  }
+  .text-red-subtitle {
+    font-size: 30px;
+  }
+}
   
-  @media (max-width: 1200px) {
-    .tesla-socialmedia-box {
-      top: 50px;
-      right: -120px;
-    }
-    .tesla-socialmedia-box:nth-child(2) {
-      top: 50px;
-      right: -70px;
-    }
-    .tesla-socialmedia-box:nth-child(3) {
-      top: 50px;
-      right: -20px;
-    }
-  }
-  
-  @media screen and (max-width: 1000px) {
-    .tesla-socialmedia-box {
-      top: 10px;
-      right: -160px;
-    }
-    .tesla-socialmedia-box:nth-child(2) {
-      top: 10px;
-      right: -110px;
-    }
-    .tesla-socialmedia-box:nth-child(3) {
-      top: 10px;
-      right: -60px;
-    }
-  }
-  
-  @media screen and (max-width: 720px) {
-    .tesla-first-section{
-      width: 100%;
-    }
-    .cybertruck-main-container {
-      width: 100%;
-    }
-    .tesla-cybertruck-main {
-      transform: scale(1.1);
-    }
-    .tesla-socialmedia-box {
-      top: 40px;
-      right: -80px;
-    }
-    .tesla-socialmedia-box:nth-child(2) {
-      top: 40px;
-      right: -30px;
-    }
-    .tesla-socialmedia-box:nth-child(3) {
-      top: 40px;
-      right: 20px;
-    }
-    .tesla-first-box h1 {
-      font-size: 80px;
-    }
-    .tesla-first-box p {
-      position: absolute;
-      padding-bottom: 0;
-      padding-top: 120px;
-      opacity: 0;
-    }
-  }
-  
-  @media (hover: hover) {
-    .tesla-socialmedia-box:hover {
-      background-color: rgba(0, 0, 0, 0.1);
-    }
-    
-    .tesla-icon:hover {
-      opacity: .8;
-    }
-    
-    .instagram-icon:hover {
-      opacity: .8;
-    }
-    
-    .x-icon:hover {
-      opacity: .8;
-    }
-  }

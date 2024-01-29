@@ -1,6 +1,11 @@
 .tesla-fifth-section {
+  max-width: 1920px;
+  min-width: 1100px;
+  height: auto;
+
   display: flex;
   flex-direction: column;
+
   position: relative;
 }
 
@@ -9,44 +14,55 @@
 }
 
 .cybertruck-inside-container img {
-  position: relative;
   width: 100%;
+
+  position: relative;
+
   display: block;
 }
 
 .fifth-card {
+  width: 100%;
+  height: 45%;
+  padding: 32px;
+  padding-top: 82px;
+  padding-bottom: 0;
+
   position: absolute;
   top: 0;
   left: 0;
+
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding-top: 82px;
   gap: 32px;
 }
 
 .cybertruck-inside2-container {
   width: 35%;
-  height: 445px;
+  height: 100%;
 }
 
 .cybertruck-inside2-container img {
   width: 100%;
   height: 100%;
+
   border-radius: 8px;
 }
 
 .fifth-box,
 .sixth-box {
   width: 50%;
-  height: 445px;
+  height: 100%;
+  font-size: 20px;
+  padding: 20px;
+
   background-color: rgb(0, 0, 0, .5);
   border-radius: 12px;
-  font-size: 20px;
+  
   display: flex;
   flex-direction: column;
   justify-items: center;
-  padding: 20px;
 }
 
 .fifth-box h1,
@@ -62,32 +78,40 @@
 
 .sixth-card {
   width: 100%;
+  height: 45%;
+  padding: 32px;
+  padding-bottom: 82px;
+  padding-top: 0;
+
   position: absolute;
   bottom: 0;
   left: 0;
+
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding-bottom: 82px;
   gap: 32px;
 }
 
 .cybertruck-inside3-container {
   width: 35%;
-  height: 445px;
+  height: 100%;
 }
 
 .cybertruck-inside3-container img {
   width: 100%;
+  height: 100%;
+
   border-radius: 8px;
 }
 
 .sixth-box {
   width: 50%;
-  height: 445px;
-  background-color: rgb(0, 0, 0, .5);
-  border-radius: 12px;
+  height: 100%;
   font-size: 20px;
   padding-left: 20px;
   padding-right: 20px;
+
+  background-color: rgb(0, 0, 0, .5);
+  border-radius: 12px;
 }

@@ -3,6 +3,7 @@
   min-width: 1116px;
   height: 200%;
   padding: 100px;
+
   background-color: rgba(29, 29, 29, 1);
 
   display: flex;
@@ -65,6 +66,7 @@
 .performance .title {
   width: 100%;
   padding-top: 24px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -72,9 +74,8 @@
   text-align: center;
 }
 
-.performance .details {
+.performance .car-details {
   margin-top: 24px;
-  
   padding-left: 28px;
 
   display: flex;
@@ -85,12 +86,14 @@
   width: 80%;
   margin: 0;
   font-size: 36px;
+
   border-bottom: 1px solid rgba(255, 0, 0, .3);
 }
 
 .performance h3 {
   width: 50%;
   font-size: 20px;
+
   border-bottom: 1px solid rgba(255, 0, 0, .3);
 }
 
@@ -101,6 +104,7 @@
   min-height: 200px;
   padding-left: 24px;
   padding-right: 24px;
+  padding-bottom: 12px;
 
   background-color: rgba(24, 24, 24, .6);
   border-radius: 12px;
@@ -118,9 +122,10 @@
 }
 
 .dimensions h3 {
-  margin-top: 24px;
   width: 50%;
+  margin-top: 24px;
   font-size: 22px;
+
   border-bottom: 1px solid rgba(255, 0, 0, .3);
 }
 
@@ -178,6 +183,7 @@
   margin: 0;
   padding: 0;
   font-size: 50px;
+
   border: 5px double rgba(255, 0, 0, .8);
   box-shadow: inset 1px 1px 18px rgba(255, 0, 0, .5);
 }
@@ -198,89 +204,5 @@
 @media (hover:hover) {
   .main-section .link:hover {
     color: red;
-  }
-}
-
-/* width and height 100%
-h1 font-size: 36px;
-h3 font-size: 20px;
-p font-size: 16px;
-
-
-*/
-
-@media (max-width: 1900px) {
-  
-}
-
-@media (max-height: 910px) {
-  .performance .title h1 {
-    font-size: 32px;
-  }
-  .performance .details h3 {
-    font-size: 18px;
-  }
-  .performance .details p {
-    font-size: 14px;
-  }
-  .performance .details {
-    margin-top: 16px;
-  }
-  .dimensions h3 {
-    font-size: 18px;
-  }
-  .dimensions p {
-    font-size: 13px;
-  }
-}
-
-@media (max-height: 790px) {
-  .performance .title h1 {
-    font-size: 29px;
-  }
-  .performance .details h3 {
-    font-size: 16px;
-  }
-  .performance .details p {
-    font-size: 12px;
-  }
-  .performance .details {
-    margin-top: 10px;
-  }
-  .dimensions h3 {
-    margin-top: 16px;
-    font-size: 15px;
-  }
-  .dimensions p {
-    font-size: 12px;
-  }
-}
-
-@media (max-height: 720px) {
-  .performance .title h1 {
-    font-size: 26px;
-  }
-  .performance .details h3 {
-    font-size: 14px;
-  }
-  .performance .details p {
-    font-size: 10px;
-  }
-  .performance .details {
-    margin-top: 6px;
-  }
-  .performance .title {
-    padding-top: 22px;
-  }
-  .dimensions h3 {
-    margin-top: 10px;
-    font-size: 12px;
-  }
-  .dimensions p {
-    font-size: 10px;
-  }
-  .link-box .link {
-    padding: 5px;
-    font-size: 10px;
   }
 }

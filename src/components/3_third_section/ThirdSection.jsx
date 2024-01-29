@@ -2,6 +2,7 @@ import cybertruckCamp from '../img/cybertruck-camp.jpg'
 import cybertruckCharge from '../img/cybertruck-charge.jpg'
 import { Formulas } from './Formulas.jsx'
 import './ThirdSection.css'
+import './ResponsiveThirdSection.css'
 
 export function ThirdSection () {
   return(
@@ -25,7 +26,6 @@ export function ThirdSection () {
       <div className='fourth-box'>
         <Formulas />
       </div>
-      
     </section>
   )
 }
