@@ -1,6 +1,18 @@
+@media (max-width: 1680px) {
+  .doubts-paragraph {
+    font-size: 14px;
+  }
+}
+
 @media (max-width: 1600px) {
   .tesla-form {
     padding: 40px;
+  }
+}
+
+@media (max-width: 1450px) {
+  .doubts-title {
+    font-size: 24px;
   }
 }
 
@@ -17,7 +29,15 @@
     margin-top: 24px;
   }
   .doubts-box {
-    font-size: 28px;
-    margin-bottom: 550px;
+    height: 750px;
+  }
+  .doubts-title {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1260px) {
+  .doubts-paragraph {
+    font-size: 12px;
   }
 }

@@ -24,9 +24,7 @@ const appRoutes =[
         <FourthSection />
         <FifthSection />
         <SixthSection />
-        {/*
         <FooterSection />
-    */}
       </>
     )
   },
