@@ -1,0 +1,23 @@
+@media (max-width: 1600px) {
+  .tesla-form {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 1350px) {
+  .tesla-form {
+    width: 90%;
+    height: 750px;
+    padding: 20px;
+  }
+  .tesla-form h2 {
+    font-size: 22px;
+  }
+  .tesla-form .inputSubmit {
+    margin-top: 24px;
+  }
+  .doubts-box {
+    font-size: 28px;
+    margin-bottom: 550px;
+  }
+}
