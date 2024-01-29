@@ -7,6 +7,7 @@ import { FourthSection } from './components/4_fourth_section/FourthSection.jsx'
 import { FifthSection } from './components/5_fifth_section/FifthSection.jsx'
 import { SixthSection } from './components/6_sixth_section/sixthSection.jsx'
 import { Models } from './components/Model/Models.jsx'
+import { Footer } from './components/footer/Footer.jsx'
 
 import { Router } from './components/Router.jsx'
 import Page404 from './components/404/404.jsx'
@@ -23,6 +24,7 @@ const appRoutes =[
         <FourthSection />
         <FifthSection />
         <SixthSection />
+        <Footer />
       </>
     )
   },
