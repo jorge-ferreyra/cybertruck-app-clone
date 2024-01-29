@@ -61,6 +61,11 @@
   margin: 0;
 }
 
+.doubts-paragraph ol {
+  margin: 0;
+  list-style: circle;
+}
+
 .doubts-paragraph img {
   width: 40%;
 

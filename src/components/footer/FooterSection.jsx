@@ -1,6 +1,7 @@
-import './Footer.css'
+import './FooterSection.css'
+import './ResponsiveFooterSection.css'
 
-export function Footer () {
+export function FooterSection () {
   return(
     <section className='tesla-footer-section'>
       <article className='divisions'>

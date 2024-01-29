@@ -11,7 +11,18 @@ export function SixthSection () {
           <h1>Si ténes alguna duda sobre Tesla o Cybertruck, ¡Mandanos tu consulta!</h1>
         </div>
         <div className='doubts-paragraph'>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolorem perspiciatis deleniti necessitatibus? Corporis placeat, itaque harum mollitia et eligendi, neque expedita, asperiores quis molestias quibusdam. Quam libero modi dolores.</p>
+          <p>Tesla es una de las empresas más competitivas de estadosunidos con sede en Austin, Texas.
+            El núcleo de la empresa está en la ingeniería del sistema de propulsión del vehículo eléctrico que
+            incluye: paquete de baterías, motor, electrónica de potencia y software de control que permite que
+            todos los componentes formen un sistema.<br />
+            Tesla se fundó para acelerar la transición hacia el transporte sostenible, influenciando unos principios
+            para influir en la industria desde un punto de vista basado en la energía renovable:
+          </p>
+          <ol>
+            <li>Comenzar con un proyecto pequeño fabricando pocas unidades a un precio alto.</li>
+            <li>Fabricar un vehículo en mayor volumen de unidades y a un costo menor que en el paso 1.</li>
+            <li>Vehículo producido en gran volumen y a un precio accesible.</li>
+          </ol>
           <img src={gifTesla} alt="" />
         </div>
       </article>

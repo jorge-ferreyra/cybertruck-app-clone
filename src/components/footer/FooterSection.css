@@ -57,7 +57,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
 }
 
 .info-cybertruck {
@@ -72,7 +72,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 8px;
+  gap: 14px;
 }
 
 .info-profile {
@@ -86,5 +86,5 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 8px;
+  gap: 16px;
 }
