@@ -11,7 +11,7 @@ export function FooterSection () {
           <a href="https://www.tesla.com/es_MX/inventory/new/my" target='blank'>Vehículos Disponibles</a>
           <a href="https://shop.tesla.com/es_mx" target='blank'>Tienda</a>
           <a href="https://www.tesla.com/es_mx/events" target='blank'>Eventos</a>
-          <a href="https://www.tesla.com/es_mx/about" target='blank'>Acerca de</a>
+          <a href="https://www.tesla.com/es_mx/about" target='blank'>Acerca De</a>
         </div>
         <div className='info-cybertruck'>
           <h1>Cybertruck</h1>

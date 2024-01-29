@@ -42,11 +42,6 @@
   text-decoration: none;
 }
 
-.divisions a:hover {
-  color: rgba(255, 255, 255, .6);
-  text-decoration: underline;
-}
-
 .info-tesla {
   grid-column: 1;
   width: 100%;
@@ -87,4 +82,11 @@
   justify-content: center;
   align-items: center;
   gap: 16px;
+}
+
+@media (hover:hover) {
+  .divisions a:hover {
+    color: rgba(255, 255, 255, .7);
+    text-decoration: underline;
+  }
 }

@@ -11,7 +11,7 @@ import './FirstSectionResponsive.css'
 
 export function FirstSection () {
   return(
-    <article className='tesla-first-section'>
+    <section className='tesla-first-section'>
       <div className='cybertruck-main-container'>
         <img className='tesla-cybertruck-main' src={cybertruckIce} alt="Cybertruck image" />
       </div>
@@ -25,6 +25,6 @@ export function FirstSection () {
         <p><span className='text-red-subtitle'>Tesla</span>, una de las empresas más influyentes en la industria de los vehículos automotores eléctricos, 
           presenta un camión que desafía a la mayoría de los modelos tradicionales. </p>
       </div>
-    </article>
+    </section>
   )
 }

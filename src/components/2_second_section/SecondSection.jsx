@@ -8,7 +8,7 @@ import './ResponsiveSecondSection.css'
 
 export function SecondSection () {
   return(
-    <article className='tesla-second-section'>
+    <section className='tesla-second-section'>
       <div className='cybertruck-outside-container'>
         <img className='tesla-cybertruck-outside' src={cybertruckOutside} alt="A cybertruck in a camp" />
       </div>
@@ -28,6 +28,6 @@ export function SecondSection () {
           <CardModel img={rearWheelDriveModel} description='Rear-Wheel Drive model' title='REAR-WHEEL DRIVE' price='60,990' autonomy='402' acceleration='6.7' maxSpeed='180' />
         </article>
       </div>
-    </article>
+    </section>
   )
 }

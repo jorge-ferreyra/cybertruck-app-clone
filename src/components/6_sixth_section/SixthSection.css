@@ -69,6 +69,10 @@
   margin: 0;
 }
 
+.doubts-paragraph span {
+  color: red;
+}
+
 .doubts-paragraph ol {
   margin: 0;
   list-style: circle;
