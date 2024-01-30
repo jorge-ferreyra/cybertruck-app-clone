@@ -7,7 +7,8 @@ import xItemBlack from '../img/x-black.png'
 import xItemWhite from '../img/x-white.png'
 import { SocialMediaBox } from './SocialMediaBox.jsx'
 import './FirstSection.css'
-import './FirstSectionResponsive.css'
+import './FirstSectionResponsiveES.css'
+
 
 export function FirstSection () {
   return(

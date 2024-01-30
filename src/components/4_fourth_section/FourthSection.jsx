@@ -1,5 +1,5 @@
 import './FourthSection.css'
-import './ResponsiveFourthSection.css'
+import './ResponsiveFourthSectionES.css'
 
 export function FourthSection() {
   return (

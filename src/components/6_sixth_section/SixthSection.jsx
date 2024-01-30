@@ -1,5 +1,5 @@
 import './SixthSection.css'
-import './ResponsiveSixthSection.css'
+import './ResponsiveSixthSectionES.css'
 
 const gifTesla = 'https://media.licdn.com/dms/image/C4E22AQFRIr5N0EsR_g/feedshare-shrink_800/0/1630000942612?e=2147483647&v=beta&t=f0JEk0KAxm89gTiOkhQHQBLS_7tqQkMH1VI6SsIodEc'
 

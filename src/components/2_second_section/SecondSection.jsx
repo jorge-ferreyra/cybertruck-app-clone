@@ -4,7 +4,7 @@ import allWheelDriveModel from '../img/cybertruck-models-allwheeldrive.jpg'
 import rearWheelDriveModel from '../img/cybertruck-models-rearwheeldrive.jpg'
 import { CardModel } from './card.jsx'
 import './SecondSection.css'
-import './ResponsiveSecondSection.css'
+import './ResponsiveSecondSectionES.css'
 
 export function SecondSection () {
   return(
@@ -23,7 +23,7 @@ export function SecondSection () {
       </article>
       <div className='grid-models'>
         <article className='second-card'>
-          <CardModel img={cyberbeastModel} description='Cyberbeastmodel' title='CYBERBEAST' price='99,990' autonomy='525' acceleration='2.7' maxSpeed='209' />
+          <CardModel img={cyberbeastModel} description='Cyberbeast model' title='CYBERBEAST' price='99,990' autonomy='525' acceleration='2.7' maxSpeed='209' />
           <CardModel img={allWheelDriveModel} description='All Wheel Drive model' title='ALL WHEEL DRIVE' price='79,990' autonomy='547' acceleration='4.3' maxSpeed='180' />
           <CardModel img={rearWheelDriveModel} description='Rear-Wheel Drive model' title='REAR-WHEEL DRIVE' price='60,990' autonomy='402' acceleration='6.7' maxSpeed='180' />
         </article>

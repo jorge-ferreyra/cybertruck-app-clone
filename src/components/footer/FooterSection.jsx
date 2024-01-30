@@ -1,5 +1,5 @@
 import './FooterSection.css'
-import './ResponsiveFooterSection.css'
+import './ResponsiveFooterSectionES.css'
 
 export function FooterSection () {
   return(

@@ -2,7 +2,7 @@ import cybertruckCamp from '../img/cybertruck-camp.jpg'
 import cybertruckCharge from '../img/cybertruck-charge.jpg'
 import { Formulas } from './Formulas.jsx'
 import './ThirdSection.css'
-import './ResponsiveThirdSection.css'
+import './ResponsiveThirdSectionES.css'
 
 export function ThirdSection () {
   return(
