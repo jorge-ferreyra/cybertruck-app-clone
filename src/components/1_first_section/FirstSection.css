@@ -9,6 +9,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 80px;
 }
 
 .cybertruck-main-container {
@@ -42,17 +43,17 @@
 }
 
 .tesla-socialmedia-box:nth-child(2) {
-  top: 100px;
+  top: 180px;
   right: 20px;
 }
 
 .tesla-socialmedia-box:nth-child(3) {
-  top: 100px;
+  top: 180px;
   right: 70px;
 }
 
 .tesla-socialmedia-box:nth-child(4){
-  top: 100px;
+  top: 180px;
   right: 120px;
 }
 
