@@ -54,7 +54,7 @@ export const modelsTech = {
         weight: 'Peso',
         cargo: 'Carga',
         cargoValue: '3,423.5 LITROS',
-        Wheels: 'Rines',
+        wheels: 'Rines',
         seating: 'Asientos',
         seatingDes: '5 ADULTOS',
       
@@ -66,7 +66,7 @@ export const modelsTech = {
           paragraphSuper: '250KW MÁX/PAGO POR USO'
         }
       },
-      soon: 'Detalles disponibles en 2025',
+      soon: 'Detalles Disponibles en 2025',
       speedometer: 'KM/H',
       speedName: 'KM',
       weightName: 'KG',
@@ -120,7 +120,7 @@ export const modelsTech = {
         weight: 'Weight',
         cargo: 'Cargo',
         cargoValue: '120.9 CU FT',
-        Wheels: 'Wheels',
+        wheels: 'Wheels',
         seating: 'Seating',
         seatingDes: '5 ADULTS',
       

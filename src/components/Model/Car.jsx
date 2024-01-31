@@ -1,5 +1,13 @@
-// eslint-disable-next-line react/prop-types
-export function Car ({ gif, title, range, acceleration, topSpeed, towing, weight }) {
+
+/* eslint-disable react/prop-types */
+export function Car ({ 
+  gif, title, range, acceleration, topSpeed, towing, weight, cargo, charge, soon,
+  speedometer, speedName, weightName, accelerationSpeed,
+  titlePerformance, subtitleAutonomy, subtitleAcceleration, subtitleMaxSpeed, subtitleTowing,
+  titleDimension, subtitleWeight, subtitleCargo, subtitleWheels, subtitleSeating, subtitleSeatingDes,
+  titleCharging, subtitleChargeSpeed, subtitleSuperCharge, subtitleParagraphSpeed, subtitleParagraphSuper
+}) {
+  
   if (title === 'REAR-WHEEL DRIVE') {
     return(
       <article className='model'>
@@ -8,15 +16,16 @@ export function Car ({ gif, title, range, acceleration, topSpeed, towing, weight
             <h1>{title}</h1>
           </div>
           <div className="car-details">
-            <h3>PERFORMANCE</h3>
-            <p><span>{`Range (est.): `}</span>{range}</p>
-            <p><span>Acceleration: </span>{acceleration}</p>
-            <p><span>Top Speed: </span>{topSpeed}</p>
-            <p><span>Towing: </span>{towing}</p>
+            
+            <h3>{titlePerformance}</h3>
+            <p><span>{subtitleAutonomy}</span>{range} {speedName}</p>
+            <p><span>{subtitleAcceleration}: </span>{acceleration} SEC {accelerationSpeed} {speedometer}</p>
+            <p><span>{subtitleMaxSpeed}: </span>{topSpeed} {speedometer}</p>
+            <p><span>{subtitleTowing}: </span>{towing} {weightName}</p>
           </div>
         </div>
         <div className="soon">
-          <h3>Details Available in 2025</h3>
+          <h3>{soon}</h3>
         </div>
         <div className="gif">
           <img src={gif} alt="" />
@@ -31,23 +40,23 @@ export function Car ({ gif, title, range, acceleration, topSpeed, towing, weight
             <h1>{title}</h1>
           </div>
           <div className="car-details">
-            <h3>PERFORMANCE</h3>
-            <p><span>{`Range (est.): `}</span>{range}</p>
-            <p><span>Acceleration: </span>{acceleration}</p>
-            <p><span>Top Speed: </span>{topSpeed}</p>
-            <p><span>Towing: </span>{towing}</p>
+            <h3>{titlePerformance}</h3>
+            <p><span>{subtitleAutonomy}: </span>{range} {speedName}</p>
+            <p><span>{subtitleAcceleration}: </span>{acceleration} SEC {accelerationSpeed} {speedometer}</p>
+            <p><span>{subtitleMaxSpeed}: </span>{topSpeed} {speedometer}</p>
+            <p><span>{subtitleTowing}: </span>{towing} {weightName}</p>
           </div>
           
         </div>
         <div className="dimensions">
-          <h3>DIMENSIONS</h3>
-          <p><span>Weight: </span>{weight}</p>
-          <p><span>Cargo: </span>120.9 CU FT</p>
-          <p><span>Wheels: </span>{`20"`}</p>
-          <p><span>Seating: </span>5 ADULTS</p>
-          <h3>CHARGING</h3>
-          <p><span>Charging Speed: </span>UP TO 128 MILES ADDED IN 15 MINUTES</p>
-          <p><span>Supercharging Max/Payment Type: </span>250KW MAX; PAY PER USE</p>
+          <h3>{titleDimension}</h3>
+          <p><span>{subtitleWeight}: </span>{weight} {weightName}</p>
+          <p><span>{subtitleCargo}: </span>{cargo}</p>
+          <p><span>{subtitleWheels}: </span>{`20"`}</p>
+          <p><span>{subtitleSeating}: </span>{subtitleSeatingDes}</p>
+          <h3>{titleCharging}</h3>
+          <p><span>{subtitleChargeSpeed}: </span>{charge} {subtitleParagraphSpeed}</p>
+          <p><span>{subtitleSuperCharge}: </span>{subtitleParagraphSuper}</p>
         </div>
         <div className="gif">
           <img src={gif} alt="" />
