@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import cybertruckIce from '../img/cybertruck-main.jpg'
 import teslaItemBlack from '../img/tesla-icon-black.png'
 import teslaItemWhite from '../img/tesla-icon-white.png'
@@ -5,10 +6,11 @@ import instagramItemBlack from '../img/instagram-black.png'
 import instagramItemWhite from '../img/instagram-white.png'
 import xItemBlack from '../img/x-black.png'
 import xItemWhite from '../img/x-white.png'
+
 import { SocialMediaBox } from './SocialMediaBox.jsx'
+
 import './FirstSection.css'
 import './FirstSectionResponsiveES.css'
-
 
 export function FirstSection () {
   return(
