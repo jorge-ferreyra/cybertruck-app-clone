@@ -1,7 +1,7 @@
 import './App.css';
 
 import { Home } from './components/Home.jsx';
-import { Models } from './components/Model/Models.jsx'
+import { Models } from './components/Model/Models.jsx';
 import { Page404 } from './components/404/404.jsx';
 
 import { Router } from './components/Router.jsx';

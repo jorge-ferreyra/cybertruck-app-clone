@@ -1,6 +1,6 @@
 import { Link } from "../Link"
 import './404.css'
-export default function Page404 () {
+export function Page404 () {
   return(
     <>
       <section className="card-404">
