@@ -144,21 +144,28 @@ export const modelsTech = {
 
 export const i18n = {
   es: {
+    perma: {
+      autonomy: 'Autonomía (est.)',
+      speedName: 'KM',
+      acceleration: 'Aceleración',
+      accelerationSpeed: '0-100',
+      speedometer: 'KM/H',
+      maxSpeed: 'Velocidad Máxima',
+      details: 'Ver más detalles de '
+    },
     firstSection: {
       paragraph: ', una de las empresas más influyentes en la industria de los vehículos automotores eléctricos, presenta un camión que desafía a la mayoría de los modelos tradicionales.'
     },
     secondSection: {
-      paragraph: {
-        paragraphPart1: 'En noviembre de 2019, ',
-        paragraphPart2: 'presento esta camioneta pickup eléctrica con un diseño unico y futurista. Cuenta con una carroceria del tipo exoesqueleto compuesta por paneles de acero inoxidable de hasta 1.8 mm que soportan disparos subsónicos de balas de 9 mm.Con tan solo 6 días de su presentación ya tenía 250.000 reservas. En octubre de 2023 cuenta con más de un millón de ellas y se aproxima una capacidad de fabricar 125.000 en 2024 y 250.000 en 2025.',
-        paragraphPart3: 'Las entregas empezaron en diciembre de 2023 y se ofrecieron 3 versiones: '
-      }
+      paragraphPart1: 'En noviembre de 2019, ',
+      paragraphPart2: ' presento esta camioneta pickup eléctrica con un diseño unico y futurista. Cuenta con una carroceria del tipo exoesqueleto compuesta por paneles de acero inoxidable de hasta 1.8 mm que soportan disparos subsónicos de balas de 9 mm.Con tan solo 6 días de su presentación ya tenía 250.000 reservas. En octubre de 2023 cuenta con más de un millón de ellas y se aproxima una capacidad de fabricar 125.000 en 2024 y 250.000 en 2025.',
+      paragraphPart3: 'Las entregas empezaron en diciembre de 2023 y se ofrecieron 3 versiones: '
     },
     thirdSection: {
       box: {
         title: 'Sistema eléctrico de 48V',
         paragraphPart1: 'El cambio de arquitectura a 48 Voltios implica el uso del 25% del cobre necesitado para un vehiculo de 12 Voltios. Si para el ',
-        paragraphPart2: 'usaba 82 kilogramos en 1600 metros de cables, se necesitaría 1.820.000 toneladas de cobre para producir 20 millones de vehículos para el 2030. Con la siguiente formula diseñada en Tesla para diseñar los vehículos con esta arquitectura, se aproxima el ahorro de 1.3 millones de toneladas de cobre para fabricar todos sus vehículos.'
+        paragraphPart2: ' usaba 82 kilogramos en 1600 metros de cables, se necesitaría 1.820.000 toneladas de cobre para producir 20 millones de vehículos para el 2030. Con la siguiente formula diseñada en Tesla para diseñar los vehículos con esta arquitectura, se aproxima el ahorro de 1.3 millones de toneladas de cobre para fabricar todos sus vehículos.'
       }
     },
     fourthSection: {
@@ -198,7 +205,13 @@ export const i18n = {
         name: 'Nombre',
         surname: 'Apellido',
         title: 'Título',
-        description: 'Descripción'
+        description: 'Descripción',
+        nameInput: 'Ingrese un nombre...',
+        surnameInput: 'Ingrese un apellido...',
+        mailInput: 'Ingrese un mail...',
+        titleInput: 'Ingrese el titulo...',
+        descriptionInput: 'Ingrese aquí la descripción...',
+        submitInput: 'Enviar'
       }
     },
     footerSection: {
@@ -217,15 +230,22 @@ export const i18n = {
     }
   },
   en: {
+    perma: {
+      autonomy: 'Range (est.)',
+      speedName: 'Miles',
+      acceleration: 'Acceleration',
+      accelerationSpeed: '0-60',
+      speedometer: 'MPH',
+      maxSpeed: 'Top Speed',
+      details: 'See more details of '
+    },
     firstSection: {
       paragraph: ', one of the most influential companies in the electric motor vehicle industry, presents a truck that challenges most traditional models.'
     },
     secondSection: {
-      paragraph: {
-        paragraphPart1: 'In November 2019, ',
-        paragraphPart2: 'I present this electric pickup truck with a unique and futuristic design. It has an exoskeleton type body composed of stainless steel panels of up to 1.8 mm that withstand subsonic shots of 9 mm bullets. Just 6 days after its presentation it already had 250,000 reservations. In October 2023 it has more than one million of them and the capacity to manufacture 125,000 in 2024 and 250,000 in 2025 is approaching.',
-        paragraphPart3: 'Deliveries began in December 2023 and 3 versions were offered: '
-      }
+      paragraphPart1: 'In November 2019, ',
+      paragraphPart2: ' present this electric pickup truck with a unique and futuristic design. It has an exoskeleton type body composed of stainless steel panels of up to 1.8 mm that withstand subsonic shots of 9 mm bullets. Just 6 days after its presentation it already had 250,000 reservations. In October 2023 it has more than one million of them and the capacity to manufacture 125,000 in 2024 and 250,000 in 2025 is approaching.',
+      paragraphPart3: 'Deliveries began in December 2023 and 3 versions were offered: '
     },
     thirdSection: {
       box: {
@@ -271,7 +291,13 @@ export const i18n = {
         name: 'Name',
         surname: 'Surname',
         title: 'Title',
-        description: 'Description'
+        description: 'Description',
+        nameInput: 'Enter a name...',
+        surnameInput: 'Enter a surname...',
+        mailInput: 'Enter a mail...',
+        titleInput: 'Enter a title...',
+        descriptionInput: 'Enter a description here...',
+        submitInput: 'Submit'
       }
     },
     footerSection: {

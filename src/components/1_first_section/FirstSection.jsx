@@ -12,7 +12,8 @@ import { SocialMediaBox } from './SocialMediaBox.jsx'
 import './FirstSection.css'
 import './FirstSectionResponsiveES.css'
 
-export function FirstSection () {
+export function FirstSection ({ lang }) {
+  
   return(
     <section className='tesla-first-section'>
       <div className='cybertruck-main-container'>
@@ -25,8 +26,7 @@ export function FirstSection () {
       
       <div className='tesla-first-box'>
         <h1>CYBERTRUCK</h1>
-        <p><span className='text-red-subtitle'>Tesla</span>, una de las empresas más influyentes en la industria de los vehículos automotores eléctricos, 
-          presenta un camión que desafía a la mayoría de los modelos tradicionales. </p>
+        <p><span className='text-red-subtitle'>Tesla</span>{lang.firstSection.paragraph}</p>
       </div>
     </section>
   )

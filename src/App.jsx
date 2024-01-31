@@ -11,13 +11,17 @@ import { Route } from './components/Route.jsx';
 
 const appRoutes = [
   {
+    path: '/:lang',
+    Component: Home
+  },
+  {
     path: '/:lang/models',
-    Component: Models,
+    Component: Models
   },
   {
     path: '/search/:query',
     // eslint-disable-next-line react/prop-types
-    Component: ({ routeParams }) => <h1>Estás buscando {routeParams.query}</h1>,
+    Component: ({ routeParams }) => <h1>Estás buscando {routeParams.query}</h1>
   },
 ];
 
