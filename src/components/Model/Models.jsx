@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { Link } from '../Link'
 import { Car } from './Car'
-import { modelsTech } from '../../consts'
+import { useModelsTech } from '../../hooks/useModelsTech'
 import './Models.css'
 import './ResponsiveModelsES.css'
 
@@ -9,9 +9,7 @@ const gif1 = 'https://1.bp.blogspot.com/-VEbTm0lKltY/YOHYmUkCkqI/AAAAAAAEVzI/z3U
 const gif2 = 'https://www.teslarati.com/wp-content/uploads/2021/10/cybertruck-teaser-2.gif'
 const gif3 = 'https://www.gainsight.com/wp-content/uploads/2014/12/cybertruck.gif'
 
-const useModelsTech = (lang) => {
-  return modelsTech[lang] || modelsTech.es
-}
+
 
 export function Models ({ routeParams }) {
   const modelsTech = useModelsTech(routeParams.lang ?? 'es')

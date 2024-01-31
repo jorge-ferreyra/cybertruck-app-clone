@@ -7,6 +7,8 @@ import { Page404 } from './components/404/404.jsx';
 import { Router } from './components/Router.jsx';
 import { Route } from './components/Route.jsx';
 
+
+
 const appRoutes = [
   {
     path: '/:lang/models',
