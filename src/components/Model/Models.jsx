@@ -4,6 +4,7 @@ import { Car } from './Car'
 import { useModelsTech } from '../../hooks/useModelsTech'
 import './Models.css'
 import './ResponsiveModelsES.css'
+import { useState } from 'react'
 
 const gif1 = 'https://1.bp.blogspot.com/-VEbTm0lKltY/YOHYmUkCkqI/AAAAAAAEVzI/z3UBNcUVZS4Zev1LHP3Pblig8YLAQCTWACLcBGAsYHQ/s600/ClassicLiquidAfricanclawedfrog-size_restricted.gif'
 const gif2 = 'https://www.teslarati.com/wp-content/uploads/2021/10/cybertruck-teaser-2.gif'
@@ -11,10 +12,22 @@ const gif3 = 'https://www.gainsight.com/wp-content/uploads/2014/12/cybertruck.gi
 
 
 
-export function Models ({ routeParams, lang }) {
-  const modelsTech = useModelsTech(routeParams.lang ?? 'es')
+export function Models ({ lang }) {
+  const [currentLang, setCurrentLang] = useState(lang)
+
+  const handleLangChange = () => {
+    const newLang = currentLang === 'es' ? 'en' : 'es'
+    setCurrentLang(newLang)
+    history.replaceState(null, '', `/${newLang}/models`);
+  }
+
+  const modelsTech = useModelsTech(currentLang);
+  
   return(
     <section className='main-section'>
+      <div>
+        <button className='changeLang' onClick={handleLangChange}>Cambiar Idioma</button>
+      </div>
       <div className='main-card'>
         <Car 
           gif={gif1} 
@@ -107,7 +120,7 @@ export function Models ({ routeParams, lang }) {
           subtitleTowing={modelsTech.models.titles.towing}
         />
         <div className='link-box'>
-          <Link className='link' to={`/${lang}`}>Volver al Home</Link>
+          <Link className='link' to={`/${currentLang}`}>Volver al Home</Link>
         </div>
       </div>
     </section>
