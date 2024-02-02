@@ -3,11 +3,45 @@
   padding: 0;
 }
 
-.changeLang {
+.langContainer {
   position: fixed;
-  right: 0;
   top: 0;
+  right: 0;
   z-index: 30;
   margin-top: 35px;
   margin-right: 35px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.flagEs, .flagEn {
+  width: 30px;
+  z-index: 30;
+}
+
+.changeLang {
+  width: 40px;
+  height: 22px;
+  z-index: 30;
+  background-color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.changeLang::before {
+  content: '';
+  width: 18px;
+  height: 14px;
+  background-color: rgba(255, 0, 0, .6);
+  border-radius: 3px;
+  transition: transform 0.3s ease;
+}
+
+.changeLang.clicked::before {
+  transform: translate(22px);
 }
