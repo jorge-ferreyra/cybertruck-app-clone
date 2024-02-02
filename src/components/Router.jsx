@@ -1,9 +1,9 @@
+/* eslint-disable react/prop-types */
 import { Children, useEffect, useState } from "react"
 import { EVENTS } from "../consts"
 import { match } from "path-to-regexp"
 
-// eslint-disable-next-line react/prop-types
-export function Router ({ children, routes = [], defaultComponent: DefaultComponent }) {
+export function Router ({ children, routes = [], defaultComponent: DefaultComponent, currentLang, history}) {
   const [currentPath, setCurrentPath] = useState(window.location.pathname)
 
   useEffect(() => {
@@ -19,6 +19,12 @@ export function Router ({ children, routes = [], defaultComponent: DefaultCompon
       window.removeEventListener(EVENTS.POPSTATE, onLocationChange)
     }
   }, [])
+
+  useEffect(() => {
+    const newPath = `/${currentLang}`
+    history.replaceState(null, '', newPath)
+    setCurrentPath(newPath)
+  }, [currentLang, history])
 
   let routeParams = {}
 
@@ -43,6 +49,6 @@ export function Router ({ children, routes = [], defaultComponent: DefaultCompon
   })?.Component
 
   return Page 
-    ? <Page routeParams={routeParams} /> 
-    : <DefaultComponent routeParams={routeParams} />
+    ? <Page routeParams={routeParams} lang={currentLang} /> 
+    : <DefaultComponent routeParams={routeParams} lang={currentLang} />
 }

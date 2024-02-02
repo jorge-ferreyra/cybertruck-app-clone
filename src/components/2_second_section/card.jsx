@@ -9,7 +9,8 @@ export function CardModel ({
   accelerationSpeed,
   speedometer,
   maxSpeedTitle,
-  details
+  details,
+  langLink
 }) {
   return(
     <div className='cybertruck-models'>
@@ -26,7 +27,7 @@ export function CardModel ({
         <li>- {maxSpeedTitle}</li>
         <p>{maxSpeed} {speedometer}</p>
       </ul>
-      <Link className='link' to='/models'>{details}{title}</Link>
+      <Link className='link' to={`/${langLink}/models`}>{details}{title}</Link>
     </div>
   )
 }

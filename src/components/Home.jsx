@@ -10,13 +10,13 @@ import { FooterSection } from './footer/FooterSection.jsx';
 
 import { useI18n } from '../hooks/useI18n.jsx';
 
-export function Home ({ routeParams }) {
+export function Home ({ routeParams, lang }) {
   const i18n = useI18n(routeParams.lang ?? 'es')
   return (
     <>
       <TopMenu />
       <FirstSection lang={i18n} />
-      <SecondSection lang={i18n} />
+      <SecondSection lang={i18n} langLink={lang}/>
       <ThirdSection lang={i18n}  />
       <FourthSection lang={i18n}  />
       <FifthSection lang={i18n}  />

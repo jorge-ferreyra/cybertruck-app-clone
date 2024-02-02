@@ -7,6 +7,8 @@ import { Page404 } from './components/404/404.jsx';
 import { Router } from './components/Router.jsx';
 import { Route } from './components/Route.jsx';
 
+import { useState } from 'react';
+
 
 
 const appRoutes = [
@@ -26,11 +28,23 @@ const appRoutes = [
 ];
 
 function App() {
+  const [currentLang, setCurrentLang] = useState('es')
+
+
+  const handleLangChange = () => {
+    const newLang = currentLang === 'es' ? 'en' : 'es'
+    setCurrentLang(newLang)
+  }
+  
+
   return (
     <>
-      <Router routes={appRoutes} defaultComponent={Page404}>
-        <Route path='/' Component={Home} />
-        <Route path='/models' Component={Models} />
+      <div>
+        <button className='changeLang' onClick={handleLangChange}>Cambiar Idioma</button>
+      </div>
+      <Router routes={appRoutes} defaultComponent={() => <Page404 lang={currentLang} />} currentLang={currentLang} history={window.history}>
+        <Route path={`/${currentLang}/`} render={(routeParams) => <Home routeParams={routeParams} lang={currentLang}/>} />
+        <Route path={`/${currentLang}/models`} render={(routeParams) => <Models routeParams={routeParams} lang={currentLang}/>} />
       </Router>
     </>
   );

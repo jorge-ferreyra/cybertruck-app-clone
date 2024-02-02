@@ -11,7 +11,7 @@ const gif3 = 'https://www.gainsight.com/wp-content/uploads/2014/12/cybertruck.gi
 
 
 
-export function Models ({ routeParams }) {
+export function Models ({ routeParams, lang }) {
   const modelsTech = useModelsTech(routeParams.lang ?? 'es')
   return(
     <section className='main-section'>
@@ -107,7 +107,7 @@ export function Models ({ routeParams }) {
           subtitleTowing={modelsTech.models.titles.towing}
         />
         <div className='link-box'>
-          <Link className='link' to='/'>Volver al Home</Link>
+          <Link className='link' to={`/${lang}`}>Volver al Home</Link>
         </div>
       </div>
     </section>

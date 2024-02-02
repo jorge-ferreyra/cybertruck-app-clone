@@ -2,3 +2,12 @@
   margin: 0;
   padding: 0;
 }
+
+.changeLang {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 30;
+  margin-top: 35px;
+  margin-right: 35px;
+}

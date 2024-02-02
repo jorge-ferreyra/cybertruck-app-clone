@@ -7,7 +7,7 @@ import { CardModel } from './card.jsx'
 import './SecondSection.css'
 import './ResponsiveSecondSectionES.css'
 
-export function SecondSection ({ lang }) {
+export function SecondSection ({ lang, langLink }) {
   return(
     <section className='tesla-second-section'>
       <div className='cybertruck-outside-container'>
@@ -38,6 +38,7 @@ export function SecondSection ({ lang }) {
             speedometer={lang.perma.speedometer}
             maxSpeedTitle={lang.perma.maxSpeed}
             details={lang.perma.details}
+            langLink={langLink}
           />
           <CardModel 
             img={allWheelDriveModel} 
@@ -55,6 +56,7 @@ export function SecondSection ({ lang }) {
             speedometer={lang.perma.speedometer}
             maxSpeedTitle={lang.perma.maxSpeed}
             details={lang.perma.details}
+            langLink={langLink}
           />
           <CardModel 
             img={rearWheelDriveModel} 
@@ -72,6 +74,7 @@ export function SecondSection ({ lang }) {
             speedometer={lang.perma.speedometer}
             maxSpeedTitle={lang.perma.maxSpeed}
             details={lang.perma.details}
+            langLink={langLink}
           />
         </article>
       </div>
