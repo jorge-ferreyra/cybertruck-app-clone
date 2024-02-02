@@ -5,9 +5,9 @@ import { Formulas } from './Formulas.jsx'
 import './ThirdSection.css'
 import './ResponsiveThirdSectionES.css'
 
-export function ThirdSection ({ lang }) {
+export function ThirdSection ({ lang, paramRef }) {
   return(
-    <section className='tesla-third-section'>
+    <section ref={paramRef} className='tesla-third-section'>
       <div className='cybertruck-camp-container'>
         <img className='tesla-cybertruck-camp' src={cybertruckCamp} alt="Cybertruck in the camp" />
       </div>

@@ -2,9 +2,9 @@
 import './FourthSection.css'
 import './ResponsiveFourthSectionES.css'
 
-export function FourthSection({ lang }) {
+export function FourthSection({ lang, paramRef }) {
   return (
-    <section className="tesla-fourth-section">
+    <section ref={paramRef} className="tesla-fourth-section">
       <div className='test-after'>
         <h1>{lang.fourthSection.before.title}</h1>
         <p>{lang.fourthSection.before.paragraph}</p>

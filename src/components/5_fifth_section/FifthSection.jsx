@@ -5,9 +5,9 @@ import cybertruckInside from '../img/cybertruck-inside.jpg'
 import cybertruckInside2 from '../img/cybertruck-inside-2.jpg'
 import cybertruckInside3 from '../img/cybertruck-inside-3.jpg'
 
-export function FifthSection ({ lang }) {
+export function FifthSection ({ lang, paramRef }) {
   return(
-    <section className='tesla-fifth-section'>
+    <section ref={paramRef} className='tesla-fifth-section'>
       <div className='cybertruck-inside-container'>
         <img src={cybertruckInside} alt="An image of the inside" />
       </div>

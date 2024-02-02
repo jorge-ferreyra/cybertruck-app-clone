@@ -4,6 +4,8 @@ import { Home } from './components/Home.jsx';
 import { Models } from './components/Model/Models.jsx';
 import { Page404 } from './components/404/404.jsx';
 
+
+
 import { Router } from './components/Router.jsx';
 import { Route } from './components/Route.jsx';
 
@@ -33,7 +35,9 @@ const enFlag = 'https://media.istockphoto.com/id/479199262/es/foto/encuadre-comp
 function App() {
   const [currentLang, setCurrentLang] = useState('es')
   const [animationButton, setAnimationButton] = useState('es')
-
+  
+  
+  
 
   const handleLangChange = () => {
     const newLang = currentLang === 'es' ? 'en' : 'es'

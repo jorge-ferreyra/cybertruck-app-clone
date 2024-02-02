@@ -7,9 +7,9 @@ import { CardModel } from './card.jsx'
 import './SecondSection.css'
 import './ResponsiveSecondSectionES.css'
 
-export function SecondSection ({ lang, langLink }) {
+export function SecondSection ({ lang, langLink, paramRef }) {
   return(
-    <section className='tesla-second-section'>
+    <section ref={paramRef} className='tesla-second-section'>
       <div className='cybertruck-outside-container'>
         <img className='tesla-cybertruck-outside' src={cybertruckOutside} alt="A cybertruck in a camp" />
       </div>

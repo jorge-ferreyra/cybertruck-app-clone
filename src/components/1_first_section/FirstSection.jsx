@@ -12,10 +12,10 @@ import { SocialMediaBox } from './SocialMediaBox.jsx'
 import './FirstSection.css'
 import './FirstSectionResponsiveES.css'
 
-export function FirstSection ({ lang }) {
+export function FirstSection ({ lang, paramRef }) {
   
   return(
-    <section className='tesla-first-section'>
+    <section ref={paramRef} id='introduction' className='tesla-first-section'>
       <div className='cybertruck-main-container'>
         <img className='tesla-cybertruck-main' src={cybertruckIce} alt="Cybertruck image" />
       </div>
