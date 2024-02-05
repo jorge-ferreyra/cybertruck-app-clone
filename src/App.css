@@ -4,15 +4,25 @@
 }
 
 .langContainer {
+  width: 140px;
+  height: 40px;
   position: fixed;
   top: 0;
   right: 0;
   z-index: 30;
-  margin-top: 35px;
+  margin-top: 24px;
   margin-right: 25px;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 6px;
+  background-color: rgba(0, 0, 0, .3);
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+.langContainer.clicked {
+  background-color: rgba(255, 0, 0, .2)
 }
 
 .flagEs, .flagEn {
@@ -20,9 +30,14 @@
   z-index: 30;
 }
 
+.flagEs {
+  margin-bottom: 1px;
+}
+
 .changeLang {
   width: 40px;
   height: 22px;
+  margin-left: 4px;
   z-index: 30;
   background-color: black;
   border: none;

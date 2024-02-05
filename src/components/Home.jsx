@@ -33,11 +33,11 @@ export function Home ({ routeParams, lang }) {
       />
       <FirstSection paramRef={introRef} lang={i18n} />
       <SecondSection paramRef={presentationRef} lang={i18n} langLink={lang}/>
-      <ThirdSection paramRef={electricRef} id='electricSystem' lang={i18n} />
-      <FourthSection paramRef={outsideRef} id='outside' lang={i18n}  />
-      <FifthSection paramRef={insideRef} id='inside' lang={i18n}  />
-      <SixthSection paramRef={contactRef} id='contact' lang={i18n}  />
-      <FooterSection lang={i18n}  />
+      <ThirdSection paramRef={electricRef} id='electricSystem' lang={i18n}/>
+      <FourthSection paramRef={outsideRef} id='outside' lang={i18n}/>
+      <FifthSection paramRef={insideRef} id='inside' lang={i18n}/>
+      <SixthSection paramRef={contactRef} id='contact' lang={i18n}/>
+      <FooterSection lang={i18n}/>
     </>
   )
 }

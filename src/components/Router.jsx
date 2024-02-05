@@ -26,6 +26,7 @@ export function Router ({ children, routes = [], defaultComponent: DefaultCompon
     setCurrentPath(newPath)
   }, [currentLang, history])
 
+
   let routeParams = {}
 
   const routesFormChildren = Children.map(children, ({ props, type }) => {
