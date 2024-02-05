@@ -2,10 +2,10 @@
   height: 90px;
   width: 100%;
   min-width: 1110px;
-  background-color: rgba(29, 29, 29, 1);
+  background-color: rgb(20, 20, 20);
   box-sizing: border-box;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   position: fixed;
   z-index: 21;
@@ -16,8 +16,6 @@
 .tesla-logo {
   width: 85px;
   margin-left: 16px;
-  position: absolute;
-  left: 0;
   opacity: .8;
   animation: cambioColor 7s infinite linear;
 }
@@ -49,16 +47,77 @@
   height: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 32px;
 }
 
 .sections button {
+  min-width: 120px;
   height: 26px;
-  color: rgba(255, 0, 0, .6);
+  color: rgba(255, 0, 0, .7);
+  background-color: rgba(0, 0, 0, .6);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: border 1s ease;
+}
+
+.langContainer {
+  width: 140px;
+  height: 40px;
+  margin-right: 16px;
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background-color: rgba(0, 0, 0, .3);
+  border: none;
+  border-color: red;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+  transition: border 1s ease;
+}
+
+.langContainer.clicked {
+  border-color: black;
+  background-color: rgba(255, 0, 0, .2)
+}
+
+.flagEs, .flagEn {
+  width: 30px;
+  z-index: 30;
+}
+
+.flagEs {
+  margin-bottom: 1px;
+}
+
+.changeLang {
+  width: 40px;
+  height: 22px;
+  margin-left: 4px;
+  z-index: 30;
   background-color: black;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.changeLang::before {
+  content: '';
+  width: 18px;
+  height: 14px;
+  background-color: rgba(255, 0, 0, .6);
+  border-radius: 3px;
+  transition: transform 0.3s ease;
+}
+
+.changeLang.clicked::before {
+  transform: translate(22px);
 }
 
 @keyframes progress {
@@ -108,10 +167,17 @@
 
 @media (hover:hover) {
   .tesla-top-menu:hover {
-    box-shadow: inset 0 -10px 10px rgba(255, 0, 0, .2);
+    box-shadow: inset 0 -30px 20px rgba(255, 0, 0, .1);
   }
   .sections button:hover {
-    color: rgba(255, 0, 0, .8);
+    color: rgba(255, 0, 0, 1);
     text-decoration: underline;
+    border: 1px solid rgba(255, 0, 0, .3);
+  }
+  .langContainer:hover {
+    border: 1px solid rgba(255, 0, 0, .3);
+  }
+  .langContainer.clicked:hover {
+    border: 1px solid rgba(0, 0, 0, .6);
   }
 }
