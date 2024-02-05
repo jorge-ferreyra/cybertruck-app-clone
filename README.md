@@ -2,7 +2,10 @@
 
 ### This is a website created with React, where I design a clone of Tesla page
 
+![Captura de pantalla 2024-02-05 133321](https://github.com/jorge-ferreyra/cybertruck-app-clone/assets/140866795/cf448db2-f7b0-46f7-8bbf-61dbafb322e6)
+
 <p style="margin: 0;">In this project I practiced my skills in <strong>React & CSS</strong> design</p>
+<p style="margin: 0;">using Components, Custom Hooks, useState, useContext & useRef</p>
 
 <p>Soon this page will be part of my <strong>Portfolio!</strong></p>
 
