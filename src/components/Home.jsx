@@ -9,10 +9,12 @@ import { FifthSection } from './5_fifth_section/FifthSection.jsx';
 import { SixthSection } from './6_sixth_section/sixthSection.jsx';
 import { FooterSection } from './footer/FooterSection.jsx';
 
+import { useLangMenu } from '../hooks/useLangMenu.jsx'
 import { useI18n } from '../hooks/useI18n.jsx';
 import { useRef } from 'react';
 
 export function Home ({ routeParams, lang }) {
+  const langMenu = useLangMenu(routeParams.lang ?? 'es')
   const i18n = useI18n(routeParams.lang ?? 'es')
   const introRef = useRef(null)
   const presentationRef = useRef(null)
@@ -30,6 +32,7 @@ export function Home ({ routeParams, lang }) {
         outsideRef={outsideRef}
         insideRef={insideRef}
         contactRef={contactRef}
+        lang={langMenu}
       />
       <FirstSection paramRef={introRef} lang={i18n} />
       <SecondSection paramRef={presentationRef} lang={i18n} langLink={lang}/>

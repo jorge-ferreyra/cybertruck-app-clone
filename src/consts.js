@@ -7,6 +7,23 @@ export const BUTTON = {
   primary: 0
 }
 
+export const langMenu = {
+  es: {
+    presentation: 'Presentación',
+    electricSystem: 'Sistema Eléctrico',
+    outside: 'Exterior',
+    inside: 'Interior',
+    contact: 'Contacto'
+  },
+  en: {
+    presentation: 'Presentation',
+    electricSystem: 'Electric System',
+    outside: 'Outside',
+    inside: 'Inside',
+    contact: 'Contact'
+  }
+}
+
 export const modelsTech = {
   es: {
     models: {
