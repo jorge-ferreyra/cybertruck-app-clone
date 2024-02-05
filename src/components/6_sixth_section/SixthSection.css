@@ -118,10 +118,12 @@
   height: 40px;
 }
 
-.tesla-form h2 {
+.tesla-form label {
   margin: 0;
   padding-top: 5px;
   padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 24px;
 }
 
 .tesla-form .titleName {

@@ -23,17 +23,23 @@ export function SixthSection ({ lang, paramRef }) {
           <img src={gifTesla} alt="" />
         </div>
       </article>
-      <form className='tesla-form' action="">
-        <h2 className='titleName'>{lang.sixthSection.form.name}</h2>
-        <input className='inputName' type="text" placeholder={lang.sixthSection.form.nameInput}/>
-        <h2 className='titleSurname'>{lang.sixthSection.form.surname}</h2>
-        <input className='inputSurname' type="text" placeholder={lang.sixthSection.form.surnameInput}/>
-        <h2 className='titleMail'>Mail</h2>
-        <input className='inputMail' type="text" placeholder={lang.sixthSection.form.mailInput}/>
-        <h2 className='titleTitle'>{lang.sixthSection.form.title}</h2>
-        <input className='inputTitle' type="text" placeholder={lang.sixthSection.form.titleInput} maxLength='100'/>
-        <h2 className='titleDescription'>{lang.sixthSection.form.description}</h2>
+      <form className='tesla-form' >
+        
+        <label className='titleName' htmlFor="name">{lang.sixthSection.form.name}</label>
+        <input className='inputName' name='name' id='name' type="text" placeholder={lang.sixthSection.form.nameInput}/>
+        
+        <label className='titleSurname' htmlFor="surname">{lang.sixthSection.form.surname}</label>
+        <input className='inputSurname' name='surname' id='surname' type="text" placeholder={lang.sixthSection.form.surnameInput}/>
+        
+        <label className='titleMail' htmlFor="mail">Mail</label>
+        <input className='inputMail' name='mail' id='mail' type="email" placeholder={lang.sixthSection.form.mailInput}/>
+        
+        <label className='titleTitle' htmlFor="title">{lang.sixthSection.form.title}</label>
+        <input className='inputTitle' name='title' id='title' type="text" placeholder={lang.sixthSection.form.titleInput} maxLength='100'/>
+        
+        <label className='titleDescription' htmlFor="description">{lang.sixthSection.form.description}</label>
         <textarea className='inputDescription' name="description" id="description" cols="30" rows="10" placeholder={lang.sixthSection.form.descriptionInput}></textarea>
+        
         <input className='inputSubmit' type="submit" value={lang.sixthSection.form.submitInput}/>
       </form>
     </section>

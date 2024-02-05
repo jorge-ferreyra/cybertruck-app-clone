@@ -4,10 +4,13 @@
   height: 400px;
 
   background-color: black;
+  border-top: 1px solid rgba(255, 0, 0, .3);
 
   display: flex;
   justify-content: center;
   align-items: center;
+
+  transition: box-shadow 3s ease;
 }
 
 .divisions {
@@ -88,5 +91,8 @@
   .divisions a:hover {
     color: rgba(255, 255, 255, .7);
     text-decoration: underline;
+  }
+  .tesla-footer-section:hover {
+    box-shadow: inset 0 30px 40px rgba(255, 0, 0, .1);
   }
 }
