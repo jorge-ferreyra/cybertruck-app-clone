@@ -4,7 +4,7 @@
 
 ![Captura de pantalla 2024-02-05 134601](https://github.com/jorge-ferreyra/cybertruck-app-clone/assets/140866795/8f7a58d1-4c7a-47fc-9902-adf184a49e2c)
 
-[Page](https://cybertruckreveal.netlify.app)
+<p>Visit the website [here](https://cybertruckreveal.netlify.app)</p>
 
 <p style="margin: 0;">In this project I practiced my skills in <strong>React & CSS</strong> design using Components, Custom Hooks, useState, useContext & useRef</p>
 
